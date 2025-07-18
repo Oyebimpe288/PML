@@ -1,5 +1,6 @@
 // components/Navbar.jsx
 import { useState } from 'react';
+import LOGO_URL from "../assets/images/logo.png"
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center animation-slide-in">
             <img
-              src="YOUR_LOGO_URL_HERE"
+              src={LOGO_URL}
               alt="PML Professional Services"
               className="h-12"
             />
